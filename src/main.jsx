@@ -61,4 +61,4 @@ function App(){
   </section></div>}
  </main>}
 createRoot(document.getElementById('root')).render(<App/>);
-if('serviceWorker'in navigator&&!location.search.includes('demo'))window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js'));
+if('serviceWorker'in navigator&&!location.search.includes('demo'))window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js'));
